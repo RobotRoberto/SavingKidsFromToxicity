@@ -5,15 +5,14 @@ This project is a result of collaboration between students from the Georgia Tech
 ## Requirements
 To run the code:
 1. We recommend setting a python3 virtual environment
-2. Skip this step if you have Python3 installed, otherwise install Python 3.6.5 from:["https://python.org/downloads/"](link)  
+2. Skip this step if you have Python3 installed, otherwise install Python 3.6.5 from: ["https://python.org/downloads/"](link) 
 3. Run these commands: 
-
-...```pip3 install virtualenv```..
-...```pip3 install -r requirements.txt```..
+..* ```pip3 install virtualenv```
+..* ```pip3 install -r requirements.txt```
  
 ## Dataset
 
-We retrieved our dataset from a Kaggle competition : ["https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge"] (Toxic Comments). Using the dataset, we found interesting trends within the content of toxic comments, so we also created word clouds of comments.
+We retrieved our dataset from a Kaggle competition : ["https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge"](Toxic Comments). Using the dataset, we found interesting trends within the content of toxic comments, so we also created word clouds of comments.
 
 ## Visualization and Initial Testing
 
