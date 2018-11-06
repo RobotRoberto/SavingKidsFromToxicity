@@ -7,8 +7,9 @@ To run the code:
 1. We recommend setting a python3 virtual environment
 2. Skip this step if you have Python3 installed, otherwise install Python 3.6.5 from:["https://python.org/downloads/"](link)  
 3. Run these commands: 
-...```markdown pip3 install virtualenv```..
-...```markdown pip3 install -r requirements.txt```
+
+...```pip3 install virtualenv```..
+...```pip3 install -r requirements.txt```..
  
 ## Dataset
 
