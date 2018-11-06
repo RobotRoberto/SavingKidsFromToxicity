@@ -10,9 +10,10 @@ To run the code:
 
 ## Commands to run:
 ```
-1. pip3 install virtualenv
+1. python3 -m pip install virtualenv
 2. virtualenv toxic_comments
-3. pip3 install -r requirements.txt
+3. source toxic_comments/bin/activate
+4. python3 -m pip install -r requirements.txt
 ```
 
 ## Dataset
