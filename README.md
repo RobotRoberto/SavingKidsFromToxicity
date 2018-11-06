@@ -13,7 +13,7 @@ To run the code:
  
 ## Dataset
 
-We retrieved our dataset from a Kaggle competition : ["https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge"](Toxic Comments). Using the dataset, we found interesting trends within the content of toxic comments, so we also created word clouds of comments.
+We retrieved our dataset from a Kaggle competition : ["https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge"] (Toxic Comments). Using the dataset, we found interesting trends within the content of toxic comments, so we also created word clouds of comments.
 
 ## Visualization and Initial Testing
 
