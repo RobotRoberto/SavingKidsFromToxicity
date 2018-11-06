@@ -21,27 +21,27 @@ def generate_word_clouds_from_dataframe(complete_df):
 
     word_cloud = WordCloud(width=1000, height=900, max_words=500)
     complete_word_cloud = generate_word_cloud(complete_body_string, word_cloud)
-    complete_word_cloud.to_file("dataset/complete_word_cloud.png")
+    complete_word_cloud.to_file("../dataset/complete_word_cloud.png")
 
     class_word_cloud = WordCloud(width=1000, height=900, max_words=100)
 
     toxic_word_cloud = generate_word_cloud(toxic_string, class_word_cloud)
-    toxic_word_cloud.to_file("dataset/toxic_word_cloud.png")
+    toxic_word_cloud.to_file("../dataset/toxic_word_cloud.png")
 
     severe_toxic_word_cloud = generate_word_cloud(severe_toxic_string, class_word_cloud)
-    severe_toxic_word_cloud.to_file("dataset/severe_toxic_word_cloud.png")
+    severe_toxic_word_cloud.to_file("../dataset/severe_toxic_word_cloud.png")
 
     obscene_word_cloud = generate_word_cloud(obscene_string, class_word_cloud)
-    obscene_word_cloud.to_file("dataset/obscene_word_cloud.png")
+    obscene_word_cloud.to_file("../dataset/obscene_word_cloud.png")
 
     threat_word_cloud = generate_word_cloud(threat_string, class_word_cloud)
-    threat_word_cloud.to_file("dataset/threat_word_cloud.png")
+    threat_word_cloud.to_file("../dataset/threat_word_cloud.png")
 
     insult_word_cloud = generate_word_cloud(insult_string, class_word_cloud)
-    insult_word_cloud.to_file("dataset/insult_word_cloud.png")
+    insult_word_cloud.to_file("../dataset/insult_word_cloud.png")
 
     identity_hate_word_cloud = generate_word_cloud(identity_hate_string, class_word_cloud)
-    identity_hate_word_cloud.to_file("dataset/identity_hate_word_cloud.png")
+    identity_hate_word_cloud.to_file("../dataset/identity_hate_word_cloud.png")
 
 complete_df_count = len(complete_df.index)
 toxic_count = complete_df[toxic]["toxic"].astype(bool).sum(axis=0)
