@@ -1,7 +1,7 @@
 import markovify
 import pandas as pd
 
-df = pd.read_csv('dataset/train.csv')
+df = pd.read_csv('../dataset/train.csv')
 
 text=dict()
 text['identity_hate'] = ""

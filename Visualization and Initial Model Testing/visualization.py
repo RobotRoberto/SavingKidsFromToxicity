@@ -4,7 +4,7 @@ import spacy
 from wordcloud import WordCloud
 
 # True if class(ex. toxic) == 1
-complete_df = pd.read_csv("dataset/train.csv")
+complete_df = pd.read_csv("../dataset/train.csv")
 toxic = complete_df["toxic"] == 1
 severe_toxic = complete_df["severe_toxic"] == 1
 obscene = complete_df["obscene"] == 1
