@@ -2,6 +2,10 @@
 
 This project is a result of collaboration between students from the Georgia Tech to save kids from toxic comments by classifying toxic comments from Wikipedia and also explore the different ways to create toxic comments.
 
+Not Toxic                              |  Toxic
+:-------------------------------------:|:----------------------------------:
+![](/dataset/complete_word_cloud.png)  |  ![](/dataset/toxic_word_cloud.png)
+
 ## Requirements
 To run the code:
 1. We recommend setting a python3 virtual environment
