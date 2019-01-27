@@ -24,14 +24,15 @@ To run the code:
 
 We retrieved our dataset from a Kaggle competition : <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comments</a>. Using the dataset, we found interesting trends within the content of toxic comments, so we also created word clouds of comments.
 
-## Visualization and Initial Testing
+## Visualization
 
-Before applying or creating any models to classify the toxic comments, we decided it was best to visualize the different comment categories and look at the most common word tokens within each category. Then, we applied the most simple models that we know to test the dataset. Using a model based on Logistic Regression paired with TfidfVectorizer, we were able to create a multi-class model with average of 98%~. 
+Before applying or creating any models to classify the toxic comments, we decided it was best to visualize the different comment categories and look at the most common word tokens within each category.
 
-## LSTM Classification Model
+## Classifier
+We first tried the most simple models that we know to test the dataset. Using a model based on Logistic Regression paired with TfidfVectorizer, we were able to create a multi-class model with average of 98%~.
 
 Upon researching more about the different models that may improve overall accuracy for this dataset, we found Long Short-Term Memory Neural Network (LSTM) to be the one of the performing models for Natural Language Processing. So, we tried implementing a LSTM using Keras module for Python. Also, we tried a variation ofLSTMs called Bi-directional LSTM. We achieved a CV accuracy around 98.3% with the Bi-directional LSTM model.
 
-## Toxic Comment Generation
+## Comment Generation
 
 We thought it would interesting to create a model for generating toxic comments.It turns out that such a model would be rudimentary at best with a LSTM model because the model seems to gravitate toward a select few phrases to generate. One of the most common is : 'pig pig pig'. While the phrase is certainly toxic, we wanted more variety, so we build a markov chain text generator, which produced a more satisfying result.
