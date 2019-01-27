@@ -31,7 +31,7 @@ Before applying or creating any models to classify the toxic comments, we decide
 ## Classifier
 We first tried the most simple models that we know to test the dataset. Using a model based on Logistic Regression paired with TfidfVectorizer, we were able to create a multi-class model with average of 98%~.
 
-Upon researching more about the different models that may improve overall accuracy for this dataset, we found Long Short-Term Memory Neural Network (LSTM) to be the one of the performing models for Natural Language Processing. So, we tried implementing a LSTM using Keras module for Python. Also, we tried a variation ofLSTMs called Bi-directional LSTM. We achieved a CV accuracy around 98.3% with the Bi-directional LSTM model.
+Upon researching more about the different models that may improve overall accuracy for this dataset, we found Long Short-Term Memory Neural Network (LSTM) to be the one of the performing models for Natural Language Processing. So, we tried implementing a LSTM using Keras module for Python. Also, we tried a variation of LSTMs called Bi-directional LSTM. We achieved a CV accuracy around 98.3% with the Bi-directional LSTM model.
 
 ## Comment Generation
 
